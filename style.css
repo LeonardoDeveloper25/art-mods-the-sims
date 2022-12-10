@@ -1,0 +1,216 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color:black;
+}
+
+@keyframes anim1{
+    from{
+        background-image: url('imagens/download.jpg');
+        width: 0%;
+    }
+
+    to{
+        background-image: url('imagens/vida\ universitária.jpg');
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+.anima{
+    padding-left: 20px;
+    background-size: 100%;
+    background-position: top, bottom center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    animation-name: anim1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
+}
+
+header{
+    display: flex;
+    padding: 0 10px;
+    background-color: #15A2DE;
+    height: 60px;
+    position: fixed;
+}
+
+
+@media screen and(max-width:768){
+    header > img{
+        width: 60px;
+    }
+}
+
+header > img{
+    width: 8%;
+}
+
+.navegação{
+    display: flex;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: black;
+    transition-duration: .3s;
+    
+}
+
+section > img{
+    padding-top: 30px;
+    display: flex;
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+footer{
+    padding-left: 20px;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    background-color: #15A2DE;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+div#imgs{
+    display: inline-block;
+
+    
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#15A2DE;
+    margin-bottom: 15px;
+    
+}
+
+.destaque1{ 
+    
+    border-radius:10px 10px 10px 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    width: 200px;
+    height: 300px;
+}
+
+.destaque2{
+  
+    border-radius:10px 10px 10px 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    width: 200px;
+    height: 300px;
+}
+
+.destaque3{
+    border-radius:10px 10px 10px 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    width: 200px;
+    height: 300px;
+}
+
+.destaque4{
+    border-radius:10px 10px 10px 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    width: 200px;
+    height: 300px;
+}
+
+.destaque5{
+    border-radius:10px 10px 10px 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    width: 200px;
+    height: 300px;
+}
+
+.destaque6{
+    border-radius:10px 10px 10px 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    width: 200px;
+    height: 300px;
+}
+
+
+menu{
+  
+    display: none;
+    
+}
+
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    text-align: center;
+   
+}
+
+li{
+
+   background-color: white;
+
+}
+
+li > a{
+    color: rgb(66, 66, 66);
+}
+
+div > p{
+    cursor: pointer;
+}
+
+div > p:hover{
+    color: black;
+}
+
+div > .navegação{
+    border-radius: 5px;
+}
+
+li > a:hover{
+    background-color: #15A2DE;
+}
+
