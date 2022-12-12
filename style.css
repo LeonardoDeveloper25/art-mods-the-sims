@@ -31,7 +31,7 @@ body{
 
 
 .anima{
-    padding-left: 20px;
+   
     background-size: 100%;
     background-position: top, bottom center;
     background-repeat: no-repeat;
@@ -46,7 +46,9 @@ body{
 
 header{
     display: flex;
-    padding: 0 10px;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 15px;
     background-color: #15A2DE;
     height: 60px;
     position: fixed;
@@ -65,6 +67,9 @@ header > img{
 
 .navegação{
     display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
     font-size: 20px;
     margin: 0 auto;
     padding: 0 auto;
@@ -93,17 +98,7 @@ section > img{
 }
 
 
-footer{
-    padding-left: 20px;
-    padding: 0 auto;
-    margin: 0 auto;
-    font-size: 12px;
-    text-align: center;
-    background-color: #15A2DE;
-    height: 40px;
-    padding-top: 10px;
-    margin-top: 15px;
-}
+
 
 div#imgs{
     display: inline-block;
@@ -170,33 +165,45 @@ h2{
     height: 300px;
 }
 
+i#icone{
+    display: flex;
+    flex-direction:row ;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 350px;
+}
 
 menu{
-  
+    margin-left: 50px;
     display: none;
     
-}
+}    
 
 
 menu > ul{
+    
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
 }
 
-menu > ul > li > a{
-    display: block;
-    text-align: center;
+menu > ul > a > li{
+    display: flex;
+   
    
 }
 
-li{
-
-   background-color: white;
-
-}
-
-li > a{
+a > li{
+    text-align: center;  
     color: rgb(66, 66, 66);
+    margin-left: 50px;
+    
+   
+
 }
+
+
 
 div > p{
     cursor: pointer;
@@ -210,7 +217,15 @@ div > .navegação{
     border-radius: 5px;
 }
 
-li > a:hover{
+ a li:hover{
+    color: white;
+}
+
+
+footer{
     background-color: #15A2DE;
 }
 
+footer > p {
+    font-size: 17px;
+}

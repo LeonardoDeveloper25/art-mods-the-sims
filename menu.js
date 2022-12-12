@@ -1,24 +1,16 @@
-function clickMenu(itens){
-    if (itens.style.display =='block'){
-         itens.style.display = 'none'
+function clickMenu(){
+    if (menu.style.display =='block'){
+         menu.style.display = 'none'
  } else {
-     itens.style.display = 'block'
+         menu.style.display = 'block'
     }
 }
 
-function clickMenu(itens2){
-    if (itens2.style.display =='block'){
-         itens2.style.display = 'none'
- } else {
-     itens2.style.display = 'block'
+function mudouTmanho(){
+    if (window.innerWidth >= 768){
+        menu.style.display = 'block'
+    } else {
+        menu.style.display = 'none'
     }
-}
 
-function clickMenu(itens3){
-    if (itens3.style.display =='block'){
-         itens3.style.display = 'none'
- } else {
-     itens3.style.display = 'block'
-    }
 }
-

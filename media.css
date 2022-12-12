@@ -1,3 +1,47 @@
+@media screen and (min-width:768px){
+    i#icone{
+        display: none;
+
+    }
+
+    menu{
+        display: block;
+        
+    }
+
+    .anima{
+        background-size: 100%;
+    }
+
+ 
+    
+}
+
+@media screen and (max-width:768px){
+    i#icone{
+        margin-right: 310px;
+    }
+
+   .anima{
+         background-size: 100%;
+         background-position: center center;
+   }
+
+   h2{
+        margin-top: -23px;
+   }
 
 
+    .destaque1{
+        margin-left: -5px;
+    }
 
+
+    .destaque3{
+        margin-left: -5px;
+    }
+
+    .destaque5{
+        margin-left: -5px;
+    }
+}
