@@ -9,42 +9,40 @@
     <link rel="shortcut icon" href="imagens/favicon/favicon-16x16.png" type="image/x-icon">
     <script src="menu.js"></script>
     <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-     <img src="imagens/logo 3_resized.png" alt="">
+   
         <div class="navegação">
-                <p onclick="clickMenu(itens)">Jogos</p>
 
-            <menu id="itens">
+            <i id="icone" onclick="clickMenu()" class="material-icons">menu</i>
+
+            <menu id="menu" >
                 <ul>
-                    <li><a href="https://www.mediafire.com/file/fs38hup3zp26upd/sims-1.torrent/file" target="_blank" class="anim2">The Sims 1</a></li>
+                    <a class="opções1" href="">
+                        <li>
+                            Jogos
+                        </li>
+                    </a>
 
-                    <li><a href="https://www.mediafire.com/file/bvbracumanejtpe/sims-2.torrent/file" target="_blank">The Sims 2</a></li>
+                    <a class="opções2" href="">
+                        <li>
+                            Mods
+                        </li>
+                    </a>
 
-                    <li><a href="https://www.mediafire.com/file/hx5d2x4zlng40q8/The+Sims+3+(.ISO).torrent/file" target="_blank">The Sims 3</a></li>
-
-                    <li><a href="https://www.mediafire.com/file/l1nmwji6p5ak71k/sims-4.torrent/file" target="_blank">The Sims 4</a></li>
+                    <a class="opções3" href="">
+                        <li>
+                            Expansões
+                        </li>
+                    </a>
                 </ul>
-            </menu>
+                
 
-            <p onclick="clickMenu(itens2)">Expanções</p>
-    
-            <menu id="itens2">
-                <ul>
-                    <li><a href="">Vida universitária</a></li>
-                    <li><a href="">Reino Da Magia</a></li>
-                </ul>
-            </menu>
 
-            <p onclick="clickMenu(itens3)">Mods</p>
-
-            <menu id="itens3">
-                 <ul>
-                     <li><a href="">Realismo</a></li>
-                     <li><a href="">Nunca Morrer</a></li>
-                 </ul>
             </menu>
         </div>
        
@@ -54,12 +52,12 @@
   
     
 
-        <div class="anima"></div>
+        <div id="anima" class="anima"></div>
 
-    <section class="imgs"> 
+    <section id="imgs"> 
     <div id="imgs" class="destaque">
         <h2>Destaques</h2>
-        <a href="">
+        <a  href="">
             <img class="destaque1" src="imagens/cães e gatos_resized.webp" alt="">
         </a>
 
@@ -87,9 +85,9 @@
     </section>
 
 
-        <footer>
-            <h2>Todos os Direitos Reservados <br> &copy; Leonardo OLiveira</h2>
-        </footer>
+       <footer>
+        <p>Todos os Direitos reservados  <br> &copy;Art Mods The Sims 2022</p>
+       </footer>
 
        
 </body>
